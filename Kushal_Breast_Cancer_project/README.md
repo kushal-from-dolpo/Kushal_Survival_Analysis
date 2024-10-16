@@ -3,23 +3,6 @@
 
 The analysis is based on **breast cancer** data. This study gives the potential to extract significant information about the survival probability depending on several covariates (i.g., treatment, cancer stage, tumor size etc) and consequently to determine which factors influence more the progress of this disease.
 
-# Installation & run project
-These are the packages used in the analysis:
-```R
-library(survminer)
-library(survival)
-library(car)
-library(glmnet)
-library(cmprsk)
-```
-
-```bash
-git clone https://github.com/askandali/breast-cancer-survival-analysis.git
-cd breast-cancer-survival-analysis
-
-install.packages("survminer","survival","car","glmnet","cmprsk")
-Rscript tumor.R
-```
 ## Data
 
 The file **SurvData6.txt** consists of 500 observations and 10 variables. These variables give us the following information about a patient:
